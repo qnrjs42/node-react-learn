@@ -16,7 +16,7 @@ mongoose.connect('mongodb+srv://master:master123@reactlearn-apfyg.mongodb.net/re
 }).then(() => console.log('MongoDB Connected..'))
   .catch(err => console.log(err))
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello World! ffff'))
 
 app.post('/register', (req, res) => {
     // 회원 가입시 필요한 정보들을 client에서 가져오면
