@@ -54,3 +54,14 @@ export default class RegisterPage extends Component {
 --------------------------
 
 -------------------------------------------------------------------------------------------------
+
+CORS 오류
+
+1. 프록시로 해결
+https://create-react-app.dev/docs/proxying-api-requests-in-development/
+
+client : npm i http-proxy-middleware
+
+2. cors 모듈로 해결
+
+server : npm i cors
