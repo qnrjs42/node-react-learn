@@ -89,3 +89,20 @@ Redux
 Redux는 그냥 Vuex랑 비슷
 
 client : npm i redux react-redux redux-promise redux-thunk
+
+-------------------------------------------------------------------------------------------------
+React Hooks
+
+기존엔 class componet로 코드 짜면 길어지는데
+
+React Hooks을 쓰면 코드가 짧아진다
+
+-------------------------------------------------------------------------------------------------
+Redux를 사용한 로그인 순서
+
+1. LoginPage/LoginPage.js       / Dispatch
+2. _actions/user_action.js      / Action
+3. _reducers/user_reducer.js    / Reducer
+
+4.  / Store
+5. LandingPade
