@@ -98,11 +98,19 @@ React Hooks
 React Hooks을 쓰면 코드가 짧아진다
 
 -------------------------------------------------------------------------------------------------
-Redux를 사용한 로그인 순서
+Redux를 사용한 로그인 순서 // 회원가입도 비슷
 
-1. LoginPage/LoginPage.js       / Dispatch
-2. _actions/user_action.js      / Action
-3. _reducers/user_reducer.js    / Reducer
+1. LoginPage/LoginPage.js        / Dispatch
+2. _actions/user_action.js       / Action
+3. _reducers/user_reducer.js     / Reducer
+4.  LoginPage/LoginPage.js       / Dispatch / response.payload.loginSuccess
 
-4.  / Store
-5. LandingPade
+LoginPage.js 파일에서 dispatch(loginUser(body))의 loginUser와
+user_action.js 파일의 export function loginUser(dataSubmit) loginUser 이름이 같아야 한다
+
+-------------------------------------------------------------------------------------------------
+로그아웃 순서
+
+1. LandingPage/LandingPage.js   / 로그아웃 버튼
+2. server/index.js              / app.get('/api/users/logout', auth, (req, res)
+3.  LoginPage/LoginPage.js      / 로그인 페이지
