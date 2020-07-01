@@ -82,3 +82,10 @@ Antd CSS Framwork
 https://ant.design/
 
 npm i antd
+
+-------------------------------------------------------------------------------------------------
+Redux
+
+Redux는 그냥 Vuex랑 비슷
+
+client : npm i redux react-redux redux-promise redux-thunk
