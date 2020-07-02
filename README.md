@@ -114,3 +114,6 @@ user_action.js 파일의 export function loginUser(dataSubmit) loginUser 이름�
 1. LandingPage/LandingPage.js   / 로그아웃 버튼
 2. server/index.js              / app.get('/api/users/logout', auth, (req, res)
 3.  LoginPage/LoginPage.js      / 로그인 페이지
+
+-------------------------------------------------------------------------------------------------
+HOC
